@@ -461,7 +461,7 @@ GameObject:
   - component: {fileID: 4483981420264964598}
   - component: {fileID: 1039660792710962342}
   m_Layer: 0
-  m_Name: Turret
+  m_Name: Double Gun Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -477,7 +477,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 247.61888, y: -0.061026573, z: 175.79974}
-  m_LocalScale: {x: 3.0759888, y: 0.81907433, z: 3.0759888}
+  m_LocalScale: {x: 5, y: 1.3314, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8507211531070871707}
@@ -523,7 +523,7 @@ MonoBehaviour:
   SwordDamage: 1
   secondProjectile: {fileID: 4163812917370429207, guid: c4e33eda63c561d46b97d71cda6d7121, type: 3}
   secondShootPoint: {fileID: 285086585897643445}
-  fireClip: {fileID: 8300000, guid: 1559a6e677577734b98552e4e86db2a2, type: 3}
+  fireClip: {fileID: 8300000, guid: 7d3f1c38ab1195c45b7a7b6e3750aada, type: 3}
   canShoot: 1
 --- !u!114 &4483981420264964598
 MonoBehaviour:

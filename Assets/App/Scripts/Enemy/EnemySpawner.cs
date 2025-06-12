@@ -8,6 +8,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using TMPro;
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -30,10 +31,10 @@ public class EnemySpawner : MonoBehaviour
     public int totalWaves = 5;
 
     // Display total waves
-    public Text wavesText;
+    public TextMeshProUGUI wavesText;
 
     // The next wave start counter text
-    public Text nextWaveText;
+    public TextMeshProUGUI nextWaveText;
 
     // Each waves spawn's limits
     public int[] wavesSpawnLimits;
@@ -59,7 +60,7 @@ public class EnemySpawner : MonoBehaviour
         // Update the wave's data
         currentWave = currentWave + 1;
         if(wavesText)
-           wavesText.text = "Waves : " + currentWave.ToString() + " / " + totalWaves.ToString();
+            wavesText.text = "Waves : " + currentWave.ToString() + " / " + totalWaves.ToString();
        
         // Winner
         if(currentWave > totalWaves)
